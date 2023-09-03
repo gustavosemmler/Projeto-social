@@ -6,6 +6,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+    }
+
 html, body {
     height: 100vh;
     width: 100vw;
@@ -33,4 +38,12 @@ section#telefone {
     width: 311px;
     background-color: blue;
     background: url(../imagens/frame-iphone.png) no-repeat; 
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 270px;
+    height: 471px;
 }
